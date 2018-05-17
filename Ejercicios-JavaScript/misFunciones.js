@@ -7,7 +7,7 @@ function sumarNumeros() {
 
 
 function evaluarValor(valor, id_elemento) {
-    valor = valor.replace (",", '.')
+    valor = valor.replace (",", '.');
 
  if(isNaN(valor))
      alert("el valor no es numerico");
@@ -22,7 +22,7 @@ function mostrar_ocultar(opcion) {
         document.getElementsByName("unDiv")[0].style.display = 'none';
     }
 
-function conversion_grados_radianes (nombre_unidad, valor_unidad) {
+function conversion_grados_radianes(nombre_unidad, valor_unidad){
     var varRadianes, varGrados;
     if (nombre_unidad == 'grados'){
         varGrados = valor_unidad;
@@ -47,7 +47,7 @@ function conversion_grados_radianes (nombre_unidad, valor_unidad) {
  */
 
 
-function conversordeunidades (nombre_unidad, valor_unidad) {
+function conversordeunidades(nombre_unidad, valor_unidad) {
     var metro, pie, pulgada, yarda;
     
     valor_unidad = valor_unidad.replace(",", ".");
